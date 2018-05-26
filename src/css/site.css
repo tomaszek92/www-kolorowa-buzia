@@ -1,0 +1,19 @@
+.primary-color {
+    color: #ff2b56 !important;
+}
+
+nav {
+    background: white;
+}
+
+li.nav-item {
+    text-align: center;
+}
+
+a {
+    color: rgb(33, 37, 41) !important;
+}
+
+a.active {
+    color: #ff2b56 !important;
+}
