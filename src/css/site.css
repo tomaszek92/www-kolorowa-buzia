@@ -1,5 +1,5 @@
 .primary-color {
-    color: #ff2b56 !important;
+    color: #F4900B !important;
 }
 
 nav {
@@ -15,5 +15,80 @@ a {
 }
 
 a.active {
-    color: #ff2b56 !important;
+    color: #F4900B !important;
+}
+
+.icon-wrap:before {
+    position: absolute;
+    content: '';
+    background-color: #F4900B;
+    height: 2px;
+    left: -30px;
+    width: 50%;
+    top: 10%;
+}
+
+.icon-wrap:after {
+    position: absolute;
+    content: '';
+    background-color: #F4900B;
+    height: 2px;
+    right: -30px;
+    width: 50%;
+    top: 10%;
+}
+
+.single-offer {
+    margin-bottom: 10px;
+}
+
+.single-offer .card-body {
+    padding-top: 0;
+}
+
+.single-offer .card-body > .card-title {
+    text-align: center;
+}
+
+.single-offer .single-offer-icon {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: transparent;
+    border: 13px solid #f7f7f7;
+    margin: 20px auto 20px;
+    transition: all 0.25s ease 0s;
+    color: #F4900B
+}
+
+.single-offer:hover .single-offer-icon {
+    color: white;
+    background-color: #F4900B;
+}
+
+.single-benefit {
+    margin-bottom: 10px;
+}
+
+.single-benefit .card-body > .card-title {
+    text-align: center;
+}
+
+.single-benefit .single-benefit-icon {
+    border: 13px solid #f7f7f7;
+    color: #F4900B;
+    height: 150px;
+    transform: rotate(-45deg);
+    transition: all 0.3s ease 0s;
+    width: 150px;
+    margin: 50px auto 30px;
+}
+
+.single-benefit .single-benefit-icon svg {
+    transform: rotate(45deg);
+}
+
+.single-benefit:hover .single-benefit-icon {
+    color: white;
+    background-color: #F4900B;
 }
