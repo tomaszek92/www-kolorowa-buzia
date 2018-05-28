@@ -6,6 +6,7 @@ import solid from '@fortawesome/fontawesome-free-solid'
 fontawesome.library.add(solid.faUser)
 
 import 'magnific-popup/dist/magnific-popup.css';
+import 'animate.css';
 
 import '../css/site.css';
 import '../css/parallax.css';
@@ -17,6 +18,7 @@ window.jQuery = window.$ = $;
 import 'popper.js';
 import 'bootstrap';
 import 'magnific-popup';
+import '../js/jquery.viewportchecker.min.js';
 
 $('.gallery-item').magnificPopup({
     type: 'image',
@@ -35,5 +37,14 @@ $('.gallery-item').magnificPopup({
         }
     }
 });
+
+$(document).ready(() => {
+    $('.card.single-benefit, .card.single-offer')
+        .viewportChecker({
+            classToAdd: 'animated bounceInRight',
+            offset: 100
+        });
+});
+
 
 console.log('running');
