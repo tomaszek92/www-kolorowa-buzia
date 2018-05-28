@@ -38,8 +38,11 @@ a.active {
     top: 10%;
 }
 
-.single-offer {
-    margin-bottom: 10px;
+.single-offer,
+.single-benefit,
+.gallery-item .img-thumbnail {
+    margin-bottom: 15px;
+    margin-top: 15px;
 }
 
 .single-offer .card-body {
@@ -64,10 +67,6 @@ a.active {
 .single-offer:hover .single-offer-icon {
     color: white;
     background-color: #F4900B;
-}
-
-.single-benefit {
-    margin-bottom: 10px;
 }
 
 .single-benefit .card-body > .card-title {

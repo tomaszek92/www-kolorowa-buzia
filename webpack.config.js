@@ -6,11 +6,6 @@ module.exports = {
       path: __dirname + '/dist',
       filename: 'bundle.min.js'
     },
-    plugins: [
-        new CopyWebpackPlugin([
-            { from: 'static' }
-        ])
-    ],
     module: {
         rules: [
             {
