@@ -47,6 +47,3 @@ $(document).ready(() => {
             offset: 100
         });
 });
-
-
-console.log('running');

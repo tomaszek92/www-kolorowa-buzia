@@ -18,14 +18,14 @@ nav a.active {
     color: #F4900B !important;
 }
 
-/* .icon-wrap:before {
+.icon-wrap:before {
     position: absolute;
     content: '';
     background-color: #F4900B;
     height: 2px;
     left: 10px;
-    width: 40%;
-    top: 10%;
+    width: 43%;
+    top: 10px;
 }
 
 .icon-wrap:after {
@@ -34,9 +34,19 @@ nav a.active {
     background-color: #F4900B;
     height: 2px;
     right: 10px;
-    width: 40%;
-    top: 10%;
-} */
+    width: 43%;
+    top: 10px;
+}
+
+@media(min-width:720px) {
+    .icon-wrap:before {
+        width: 46%;
+    }
+    
+    .icon-wrap:after {
+        width: 46%;
+    }   
+}
 
 .single-offer,
 .single-benefit,
