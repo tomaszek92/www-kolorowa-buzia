@@ -5,6 +5,7 @@
   "main": "app.js",
   "dependencies": {
     "@fortawesome/fontawesome": "^1.1.8",
+    "@fortawesome/fontawesome-free-brands": "^5.0.13",
     "@fortawesome/fontawesome-free-solid": "^5.0.13",
     "animate.css": "^3.6.1",
     "bootstrap": "^4.1.1",

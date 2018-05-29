@@ -1,9 +1,11 @@
 // CSS
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-import fontawesome from '@fortawesome/fontawesome'
-import solid from '@fortawesome/fontawesome-free-solid'
+import fontawesome from '@fortawesome/fontawesome';
+import solid from '@fortawesome/fontawesome-free-solid';
+import faFacebookSquare from '@fortawesome/fontawesome-free-brands/faFacebookSquare';
 fontawesome.library.add(solid.faUser)
+fontawesome.library.add(faFacebookSquare);
 
 import 'magnific-popup/dist/magnific-popup.css';
 import 'animate.css';
