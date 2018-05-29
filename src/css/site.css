@@ -10,21 +10,21 @@ li.nav-item {
     text-align: center;
 }
 
-a {
+nav a {
     color: rgb(33, 37, 41) !important;
 }
 
-a.active {
+nav a.active {
     color: #F4900B !important;
 }
 
-.icon-wrap:before {
+/* .icon-wrap:before {
     position: absolute;
     content: '';
     background-color: #F4900B;
     height: 2px;
-    left: -30px;
-    width: 50%;
+    left: 10px;
+    width: 40%;
     top: 10%;
 }
 
@@ -33,10 +33,10 @@ a.active {
     content: '';
     background-color: #F4900B;
     height: 2px;
-    right: -30px;
-    width: 50%;
+    right: 10px;
+    width: 40%;
     top: 10%;
-}
+} */
 
 .single-offer,
 .single-benefit,
@@ -90,4 +90,18 @@ a.active {
 .single-benefit:hover .single-benefit-icon {
     color: white;
     background-color: #F4900B;
+}
+
+.btn-contact {
+    width: 150px;
+    color: white !important;
+    margin-bottom: 10px;
+}
+
+.btn-contact a {
+    color: white !important;
+}
+
+.btn-facebook {
+    background-color: #3b5998;
 }
